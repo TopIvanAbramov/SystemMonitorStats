@@ -12,7 +12,13 @@ You can retrieve up-to-date technical data any time, like process load, CPU temp
 
 ## ⚙️ Installation 
 
-1. Clone repository and integrate to your project
+1. Create a Podfile, and add your dependencies:
+```ruby
+target 'MyApp' do
+  pod 'SystemMonitorStats'
+end
+```
+
 2. Add key `App Sandbox : NO` to entitlements
 
 ## 🕹 Usage example
@@ -52,7 +58,7 @@ print(statsDescription)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/matveyplevako/ResourceCollectorMacOS](https://github.com/matveyplevako/ResourceCollectorMacOS)
+[https://github.com/TopIvanAbramov/SystemMonitorStats](https://github.com/TopIvanAbramov/SystemMonitorStats)
 
 [swift-image]:https://img.shields.io/badge/swift-5.3.3-orange.svg
 [swift-url]: https://swift.org/
