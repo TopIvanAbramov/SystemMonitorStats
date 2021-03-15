@@ -113,7 +113,7 @@ public class NetworkStats: ReaderProtocol {
         do {
             try task.run()
         } catch let error {
-//			yoho one more error catched))
+			print(error)
             return (0, 0)
         }
         

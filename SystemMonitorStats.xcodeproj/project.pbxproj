@@ -164,7 +164,6 @@
 				F3BF3F7B25FFFDAF00823107 /* Stats */,
 				F3BF3F2625FFFA9A00823107 /* SystemMonitorStats.h */,
 				F3BF3F2725FFFA9A00823107 /* Info.plist */,
-				F3BF3F7425FFFD8200823107 /* SystemMonitorStats.swift */,
 			);
 			path = SystemMonitorStats;
 			sourceTree = "<group>";
@@ -212,6 +211,7 @@
 		F3BF3F7B25FFFDAF00823107 /* Stats */ = {
 			isa = PBXGroup;
 			children = (
+				F3BF3F7425FFFD8200823107 /* SystemMonitorStats.swift */,
 				F3BF3F9525FFFDE600823107 /* Utils */,
 				F3BF3F7C25FFFDAF00823107 /* Sensors */,
 				F3BF3F7F25FFFDAF00823107 /* NetworkStats.swift */,
