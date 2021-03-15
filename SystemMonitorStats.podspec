@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SystemMonitorStats"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "System Monitor is an Cocoapod library for Mac, designed to inform you unobtrusively about the activity of your computer."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "**/*.{h,m}"
+  spec.source_files  = "SystemMonitorStats/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
