@@ -14,7 +14,7 @@ public class SystemMonitorStats {
     public let readerNet: NetworkStats
     public let readerSensors: SensorsStats
     
-    init() {
+    public init() {
         self.readerCPU = ReaderFactory.createReader(ofType: .CPU)
         self.readerGPU = ReaderFactory.createReader(ofType: .GPU)
         self.readerRAM = ReaderFactory.createReader(ofType: .RAM)

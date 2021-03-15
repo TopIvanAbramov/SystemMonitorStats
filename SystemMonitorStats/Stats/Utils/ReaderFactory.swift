@@ -21,7 +21,7 @@ enum ReaderType {
 
 /// Description: Factory create reader of special type
 
-class ReaderFactory {
+public class ReaderFactory {
     static func createReader<T: ReaderProtocol>(ofType type: ReaderType) -> T {
         switch type {
         case .CPU:
