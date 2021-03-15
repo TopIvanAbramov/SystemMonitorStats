@@ -16,6 +16,21 @@
 		F3BF3F4D25FFFB1C00823107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BF3F4B25FFFB1C00823107 /* Main.storyboard */; };
 		F3BF3F5925FFFB1D00823107 /* SystemMonitorStatsExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F5825FFFB1D00823107 /* SystemMonitorStatsExamplesTests.swift */; };
 		F3BF3F6425FFFB1D00823107 /* SystemMonitorStatsExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F6325FFFB1D00823107 /* SystemMonitorStatsExamplesUITests.swift */; };
+		F3BF3F7525FFFD8200823107 /* SystemMonitorStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F7425FFFD8200823107 /* SystemMonitorStats.swift */; };
+		F3BF3F8725FFFDAF00823107 /* SensorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F7D25FFFDAF00823107 /* SensorsModel.swift */; };
+		F3BF3F8825FFFDAF00823107 /* SensorsStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F7E25FFFDAF00823107 /* SensorsStats.swift */; };
+		F3BF3F8925FFFDAF00823107 /* NetworkStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F7F25FFFDAF00823107 /* NetworkStats.swift */; };
+		F3BF3F8A25FFFDAF00823107 /* CPUStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F8025FFFDAF00823107 /* CPUStats.swift */; };
+		F3BF3F8B25FFFDAF00823107 /* BatteryStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F8125FFFDAF00823107 /* BatteryStats.swift */; };
+		F3BF3F8C25FFFDAF00823107 /* GPUStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F8225FFFDAF00823107 /* GPUStats.swift */; };
+		F3BF3F8D25FFFDAF00823107 /* FansStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F8425FFFDAF00823107 /* FansStats.swift */; };
+		F3BF3F8E25FFFDAF00823107 /* Fan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F8525FFFDAF00823107 /* Fan.swift */; };
+		F3BF3F8F25FFFDAF00823107 /* RAMStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F8625FFFDAF00823107 /* RAMStats.swift */; };
+		F3BF3F9B25FFFDE600823107 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F9625FFFDE600823107 /* Extensions.swift */; };
+		F3BF3F9C25FFFDE600823107 /* ReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F9725FFFDE600823107 /* ReaderFactory.swift */; };
+		F3BF3F9D25FFFDE600823107 /* Helpres.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F9825FFFDE600823107 /* Helpres.swift */; };
+		F3BF3F9E25FFFDE600823107 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F9925FFFDE600823107 /* Store.swift */; };
+		F3BF3F9F25FFFDE600823107 /* SMCDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF3F9A25FFFDE600823107 /* SMCDataType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +77,21 @@
 		F3BF3F5F25FFFB1D00823107 /* SystemMonitorStatsExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemMonitorStatsExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BF3F6325FFFB1D00823107 /* SystemMonitorStatsExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorStatsExamplesUITests.swift; sourceTree = "<group>"; };
 		F3BF3F6525FFFB1D00823107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BF3F7425FFFD8200823107 /* SystemMonitorStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorStats.swift; sourceTree = "<group>"; };
+		F3BF3F7D25FFFDAF00823107 /* SensorsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsModel.swift; sourceTree = "<group>"; };
+		F3BF3F7E25FFFDAF00823107 /* SensorsStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorsStats.swift; sourceTree = "<group>"; };
+		F3BF3F7F25FFFDAF00823107 /* NetworkStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStats.swift; sourceTree = "<group>"; };
+		F3BF3F8025FFFDAF00823107 /* CPUStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPUStats.swift; sourceTree = "<group>"; };
+		F3BF3F8125FFFDAF00823107 /* BatteryStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStats.swift; sourceTree = "<group>"; };
+		F3BF3F8225FFFDAF00823107 /* GPUStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPUStats.swift; sourceTree = "<group>"; };
+		F3BF3F8425FFFDAF00823107 /* FansStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FansStats.swift; sourceTree = "<group>"; };
+		F3BF3F8525FFFDAF00823107 /* Fan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fan.swift; sourceTree = "<group>"; };
+		F3BF3F8625FFFDAF00823107 /* RAMStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMStats.swift; sourceTree = "<group>"; };
+		F3BF3F9625FFFDE600823107 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F3BF3F9725FFFDE600823107 /* ReaderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderFactory.swift; sourceTree = "<group>"; };
+		F3BF3F9825FFFDE600823107 /* Helpres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpres.swift; sourceTree = "<group>"; };
+		F3BF3F9925FFFDE600823107 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		F3BF3F9A25FFFDE600823107 /* SMCDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCDataType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +161,10 @@
 		F3BF3F2525FFFA9A00823107 /* SystemMonitorStats */ = {
 			isa = PBXGroup;
 			children = (
+				F3BF3F7B25FFFDAF00823107 /* Stats */,
 				F3BF3F2625FFFA9A00823107 /* SystemMonitorStats.h */,
 				F3BF3F2725FFFA9A00823107 /* Info.plist */,
+				F3BF3F7425FFFD8200823107 /* SystemMonitorStats.swift */,
 			);
 			path = SystemMonitorStats;
 			sourceTree = "<group>";
@@ -175,6 +207,51 @@
 				F3BF3F6525FFFB1D00823107 /* Info.plist */,
 			);
 			path = SystemMonitorStatsExamplesUITests;
+			sourceTree = "<group>";
+		};
+		F3BF3F7B25FFFDAF00823107 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF3F9525FFFDE600823107 /* Utils */,
+				F3BF3F7C25FFFDAF00823107 /* Sensors */,
+				F3BF3F7F25FFFDAF00823107 /* NetworkStats.swift */,
+				F3BF3F8025FFFDAF00823107 /* CPUStats.swift */,
+				F3BF3F8125FFFDAF00823107 /* BatteryStats.swift */,
+				F3BF3F8225FFFDAF00823107 /* GPUStats.swift */,
+				F3BF3F8325FFFDAF00823107 /* Fans */,
+				F3BF3F8625FFFDAF00823107 /* RAMStats.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		F3BF3F7C25FFFDAF00823107 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF3F7D25FFFDAF00823107 /* SensorsModel.swift */,
+				F3BF3F7E25FFFDAF00823107 /* SensorsStats.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		F3BF3F8325FFFDAF00823107 /* Fans */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF3F8425FFFDAF00823107 /* FansStats.swift */,
+				F3BF3F8525FFFDAF00823107 /* Fan.swift */,
+			);
+			path = Fans;
+			sourceTree = "<group>";
+		};
+		F3BF3F9525FFFDE600823107 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3BF3F9625FFFDE600823107 /* Extensions.swift */,
+				F3BF3F9725FFFDE600823107 /* ReaderFactory.swift */,
+				F3BF3F9825FFFDE600823107 /* Helpres.swift */,
+				F3BF3F9925FFFDE600823107 /* Store.swift */,
+				F3BF3F9A25FFFDE600823107 /* SMCDataType.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +368,7 @@
 				TargetAttributes = {
 					F3BF3F2225FFFA9A00823107 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					F3BF3F2B25FFFA9B00823107 = {
 						CreatedOnToolsVersion = 12.2;
@@ -375,6 +453,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BF3F8C25FFFDAF00823107 /* GPUStats.swift in Sources */,
+				F3BF3F8E25FFFDAF00823107 /* Fan.swift in Sources */,
+				F3BF3F8F25FFFDAF00823107 /* RAMStats.swift in Sources */,
+				F3BF3F8D25FFFDAF00823107 /* FansStats.swift in Sources */,
+				F3BF3F7525FFFD8200823107 /* SystemMonitorStats.swift in Sources */,
+				F3BF3F9C25FFFDE600823107 /* ReaderFactory.swift in Sources */,
+				F3BF3F8825FFFDAF00823107 /* SensorsStats.swift in Sources */,
+				F3BF3F9E25FFFDE600823107 /* Store.swift in Sources */,
+				F3BF3F9F25FFFDE600823107 /* SMCDataType.swift in Sources */,
+				F3BF3F8925FFFDAF00823107 /* NetworkStats.swift in Sources */,
+				F3BF3F8A25FFFDAF00823107 /* CPUStats.swift in Sources */,
+				F3BF3F8725FFFDAF00823107 /* SensorsModel.swift in Sources */,
+				F3BF3F9B25FFFDE600823107 /* Extensions.swift in Sources */,
+				F3BF3F9D25FFFDE600823107 /* Helpres.swift in Sources */,
+				F3BF3F8B25FFFDAF00823107 /* BatteryStats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +660,7 @@
 		F3BF3F3825FFFA9B00823107 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -583,6 +677,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.IvanAbramov.SystemMonitorStats;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -590,6 +685,7 @@
 		F3BF3F3925FFFA9B00823107 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -613,6 +709,7 @@
 		F3BF3F3B25FFFA9B00823107 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SystemMonitorStatsTests/Info.plist;
@@ -630,6 +727,7 @@
 		F3BF3F3C25FFFA9B00823107 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SystemMonitorStatsTests/Info.plist;
