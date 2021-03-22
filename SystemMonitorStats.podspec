@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SystemMonitorStats"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "System Monitor is an Cocoapod library for Mac, designed to inform you unobtrusively about the activity of your computer."
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :osx, '11.0'
+  spec.platform     = :osx, '10.13'
   spec.swift_version = "5.2"
 
   #  When using multiple platforms
